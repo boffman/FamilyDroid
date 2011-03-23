@@ -1,0 +1,11 @@
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ImageView android:layout_height="wrap_content" android:id="@+id/parent1" android:src="@drawable/parent" android:clickable="true" android:layout_width="wrap_content" android:layout_x="100dip" android:layout_y="110dip"></ImageView>
+<ImageView android:layout_height="wrap_content" android:id="@+id/parent2" android:src="@drawable/parent" android:clickable="true" android:layout_width="wrap_content" android:layout_x="100dip" android:layout_y="280dip"></ImageView>
+<ImageView android:layout_height="wrap_content" android:id="@+id/child1" android:src="@drawable/child" android:clickable="true" android:layout_width="wrap_content" android:layout_x="95dip" android:layout_y="240dip"></ImageView>
+<ImageView android:layout_height="wrap_content" android:id="@+id/child2" android:src="@drawable/child" android:clickable="true" android:layout_width="wrap_content" android:layout_x="195dip" android:layout_y="240dip"></ImageView>
+
+<ImageView android:id="@+id/add" android:src="@drawable/add" android:clickable="true" android:layout_width="wrap_content" android:layout_x="12dip" android:layout_height="wrap_content" android:layout_y="12dip"></ImageView>
+<ImageView android:id="@+id/back" android:src="@drawable/back" android:layout_width="wrap_content" android:layout_x="32dip" android:layout_height="wrap_content" android:layout_y="80dip"></ImageView>
+<TextView android:text="Click to add family member" android:layout_width="wrap_content" android:layout_x="60dip" android:id="@+id/tips" android:layout_height="wrap_content" android:layout_y="20dip"></TextView>
+</AbsoluteLayout>

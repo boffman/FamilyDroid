@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="se.fk.appening" android:versionCode="1" android:versionName="1.0">
+
+
+	<application android:name=".MyApp" android:icon="@drawable/icon"
+		android:label="@string/app_name">
+		<activity android:name="MainView" android:label="@string/app_name" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".detail.PensionView"></activity>
+		<activity android:name=".detail.PrognosView"></activity>
+		<activity android:name=".detail.TfpView"></activity>
+		<activity android:name=".detail.FpView"></activity>
+		<activity android:name=".detail.SgiView"></activity>
+		<activity android:name=".detail.SjpView"></activity>
+		<activity android:name=".detail.UtbView"></activity>
+		<activity android:name=".detail.AbbView"></activity>
+		<activity android:name=".detail.GpiView"></activity>
+		<activity android:name=".detail.BtpView"></activity>
+		<activity android:name=".LefiView"></activity>
+
+	</application>
+	
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>
